@@ -28,7 +28,7 @@ test:
   reconnect: false
   database: mysql_test
   pool: 5
-  username: jack
+  username: <%= ENV['CUSTOM_VAR'] %>
   password: jill
   host: localhost
   port: 3306
