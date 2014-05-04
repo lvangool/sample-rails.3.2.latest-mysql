@@ -14,7 +14,7 @@ development:
   reconnect: false
   database: mysql_development
   pool: 5
-  username: jack
+  username: <%= ENV['CUSTOM_VAR'] %>
   password: jill
   host: localhost
   port: 3306
